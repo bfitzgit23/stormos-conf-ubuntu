@@ -1,9 +1,9 @@
 #!/usr/bin/env xdg-open
 [Desktop Entry]
-Name=StormOS System Tool
-GenericName=StormOS System Tool
-X-GNOME-FullName=StormOS System Tool
-Comment=Tweak StormOS with ease
+Name=StormOS Ubuntu System Tool
+GenericName=StormOS Ubuntu System Tool
+X-GNOME-FullName=StormOS Ubuntu System Tool
+Comment=Tweak StormOS Ubuntu with ease
 Exec=/usr/local/bin/sysconfig
 Icon=/usr/share/icons/scalable/apps/stormos.png
 Terminal=false
