@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo systemctl enable --now ecbd.service sudo systemctl start --now ecbd.service; sudo apt install -y escputil ink printer-driver-escpr;

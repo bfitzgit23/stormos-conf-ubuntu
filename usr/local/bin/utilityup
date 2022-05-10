@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo apt update -y; sudo apt install -y stormos-conf-ubuntu; killall yad; setsid sysconfig &>/dev/null &
+
+./sysconfig
+
