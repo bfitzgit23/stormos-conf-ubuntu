@@ -40,7 +40,8 @@ sudo mv winehq-jammy.sources /etc/apt/sources.list.d/; sudo apt update;  sudo ap
 --field="<b>Install Transmission</b>":FBTN "gnome-terminal -e 'sudo apt install -y transmission'" \
 --field="<b>Install Thunderbird</b>":FBTN "gnome-terminal -e 'sudo apt install -y thunderbird'" \
 --field="<b>Install Mousepad (Alt) Text Editor</b>":FBTN "gnome-terminal -e 'sudo apt install -y mousepad'" \
---field="<b>Install Only Office</b>":FBTN "gnome-terminal -e 'yay -S onlyoffice-bin  --noconfirm'" \
+--field="<b>Install Only Office</b>":FBTN "gnome-terminal -e 'sudo apt install -y onlyoffice'" \
+--field="<b>Install Libre Office</b>":FBTN "gnome-terminal -e 'sudo apt install -y libreoffice'" \
 --field="<b>Program Launchers:</b>":btn "" \
 --field="<b>launch Replace all File/Directory Menu</b>":FBTN "gnome-terminal -e 'replaceall'" \
 --field="<b>Reserved</b>":btn "" \
